@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | Loopstudios landing page</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="containers">
+        <nav id="header-navbar">
+          <img id="logo" src="./images/logo.svg" alt="Logo">
+          <img id="hamburger" src="./images/icon-hamburger.svg" alt="hamburger icon">
+          <ul class="navlist">
+            <li id="about-item" class="nav-items"><a id="about-link" class="nav-links" href="#">About</a><div class="item-lines"></div></li>
+            <li id="careers-item" class="nav-items"><a id="careers-link" class="nav-links" href="#">Careers</a><div class="item-lines"></div></li>
+            <li id="events-item" class="nav-items"><a id="events-link" class="nav-links" href="#">Events</a><div class="item-lines"></div></li>
+            <li id="products-item" class="nav-items"><a id="products-link" class="nav-links" href="#">Products</a><div class="item-lines"></div></li>
+            <li id="support-item" class="nav-items"><a id="support-link" class="nav-links" href="#">Support</a><div class="item-lines"></div></li>
+          </ul>
+        </nav>
+        <h1>Immersive<br>experiences<br>that<br class="mobile-linebreak"> deliver</h1>
+      </div>
+    </header>
+    <main>
+      <div id="vr-container" class="containers">
+        <img id="vr-man" src="./images/desktop/image-interactive.jpg" alt="Image">
+        <div id="vr-text">
+          <h2>The leader in<br>interactive VR</h2>
+          <p id="vr-discreption">Founded in 2011, Loopstudios has been producing world-class virtual reality 
+            projects for some of the best companies around the globe. Our award-winning 
+            creations have transformed businesses through digital experiences that bind 
+            to their brand.
+          </p>
+        </div>
+      </div>
+      <div id="photos-container" class="containers">
+        <div id="container-header">
+          <h2 id="title">Our creations</h2>
+          <button id="desktop-button" type="button">See all</button>
+        </div>
+        <div id="container-main">
+          <div id="pic-1" class="pictures">
+            <img id="img-1" class="imgs" src="images/desktop/image-deep-earth.jpg" alt="Deep Earth">
+            <h3>Deep <br>Earth</h3>
+          </div>
+          <div id="pic-2" class="pictures">
+            <img id="img-2" class="imgs" src="./images/desktop/image-night-arcade.jpg" alt="Night Arcade">
+            <h3>Night <br>Arcade</h3>
+          </div>
+          <div id="pic-3" class="pictures">
+            <img id="img-3" class="imgs" src="./images/desktop/image-soccer-team.jpg" alt="Soccer Team">
+            <h3>Soccer <br>Team</h3>
+          </div>
+          <div id="pic-4" class="pictures">
+            <img id="img-4" class="imgs" src="./images/desktop/image-grid.jpg" alt="The Grid">
+            <h3>The <br>Grid</h3>
+          </div>
+          <div id="pic-5" class="pictures">
+            <img id="img-5" class="imgs" src="./images/desktop/image-from-above.jpg" alt="For Above">
+            <h3>From <br>Above</h3>
+          </div>
+          <div id="pic-6" class="pictures">
+            <img id="img-6" class="imgs" src="./images/desktop/image-pocket-borealis.jpg" alt="Pocket Borealis">
+            <h3>Pocket <br>Borealis</h3>
+          </div>
+          <div id="pic-7" class="pictures">
+            <img id="img-7" class="imgs" src="./images/desktop/image-curiosity.jpg" alt="Curiosity">
+            <h3>The <br>Curiosity</h3>
+          </div>
+          <div id="pic-8" class="pictures">
+            <img id="img-8" class="imgs" src="./images/desktop/image-fisheye.jpg" alt="Fisheye">
+            <h3>Make it <br>Fisheye</h3>
+          </div>
+          <button id="mobile-button" type="button">See all</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-container" class="containers">
+        <img id="footer-logo" src="./images/logo.svg" alt="Logo">
+        <ul id="links-list">
+          <li id="footer-about-item" class="footer-nav-items"><a id="about-link" class="nav-links" href="#">About</a><div class="item-lines"></div></li>
+          <li id="footer-careers-item" class="footer-nav-items"><a id="careers-link" class="nav-links" href="#">Careers</a><div class="item-lines"></div></li>
+          <li id="footer-events-item" class="footer-nav-items"><a id="events-link" class="nav-links" href="#">Events</a><div class="item-lines"></div></li>
+          <li id="footer-products-item" class="footer-nav-items"><a id="products-link" class="nav-links" href="#">Products</a><div class="item-lines"></div></li>
+          <li id="footer-support-item" class="footer-nav-items"><a id="support-link" class="nav-links" href="#">Support</a><div class="item-lines"></div></li>
+        </ul>
+        <ul id="social-list">
+          <li id="facebook-item" class="footer-items"><a id="facebook-link" class="footer-links" href="#"><img src="images/icon-facebook.svg" alt="Facebook icon"></a><div class="social-lines"></div></li>
+          <li id="twitter-item" class="footer-items"><a id="twitter-link" class="footer-links" href="#"><img src="./images/icon-twitter.svg" alt="Twitter icon"></a><div class="social-lines"></div></li>
+          <li id="Pinterrest-item" class="footer-items"><a id="Pinterrest-link" class="footer-links" href="#"><img src="./images/icon-pinterest.svg" alt="Pinterrest icon"></a><div class="social-lines"></div></li>
+          <li id="instagram-item" class="footer-items"><a id="instagram-link" class="footer-links" href="#"><img src="./images/icon-instagram.svg" alt="Instagram icon"></a><div class="social-lines"></div></li>
+        </ul>
+        <h5>© 2021 Loopstudios. All rights reserved.</h5>
+      </div>
+    </footer>
+  </body>
+</html>
